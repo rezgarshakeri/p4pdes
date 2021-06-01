@@ -6,6 +6,10 @@ sparsemat: sparsemat.o
 	-${CLINKER} -o sparsemat sparsemat.o  ${PETSC_LIB}
 	${RM} sparsemat.o
 
+sparsemat1: sparsemat1.o
+	-${CLINKER} -o sparsemat1 sparsemat1.o  ${PETSC_LIB}
+	${RM} sparsemat1.o
+
 vecmatksp: vecmatksp.o
 	-${CLINKER} -o vecmatksp vecmatksp.o  ${PETSC_LIB}
 	${RM} vecmatksp.o
